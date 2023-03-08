@@ -11,6 +11,7 @@
 - objective brainfuck(just an idea)
   - a planned extension of functional brainfuck that will bring in OOP!
 # brainfuck interpreter
-
+The backend can be accessed and modified in ./brainfuck/brainfuck.py, but the cli ./brainfuck/bfcli.py
+is the actual interpreter cli. For usage instructions just use the -h flag
 # Support
 Any feature requests/ideas/issues - write to the issue tab in the repo
