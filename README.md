@@ -10,5 +10,7 @@
   - a standart library, std.fbf is currently in development. it will bring a lot of qol functions for math, memory manipulation, io, etc
 - objective brainfuck(just an idea)
   - a planned extension of functional brainfuck that will bring in OOP!
+# brainfuck interpreter
+
 # Support
 Any feature requests/ideas/issues - write to the issue tab in the repo
