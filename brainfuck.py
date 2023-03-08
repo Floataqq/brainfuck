@@ -1,11 +1,11 @@
 import sys
 
 
-# noinspection DuplicatedCode
 class Interpreter:
     """
     A basic brainfuck interpreter
     """
+
     def __init__(self, arr_size: int = 10000):
         """
         :param arr_size: size of the internal array that brainfuck uses
@@ -66,5 +66,8 @@ class Interpreter:
 
 
 bf = Interpreter()
-bf.exec('++[>+++++<-]>+[>++++++<-]>+[>++++<-]>[>++++<-]>+.>++[>+++++<-]>[<<+>>-]<<.>++++[>+++++<-]>[<<+>>-]<<.>++[' +
-        '>+++++<-]>[<<->>-]<<---.>++[>+++++<-]>[<<+>>-]<<.')
+bf.exec(
+    '''>++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<+
+    +.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-
+    ]<+.'''
+)

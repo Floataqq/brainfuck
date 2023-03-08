@@ -1,7 +1,6 @@
 import sys
 
 
-# noinspection DuplicatedCode
 class Interpreter:
     def __init__(self, arr_size: int = 10000):
         self.arr_size = arr_size
@@ -137,7 +136,10 @@ class Interpreter:
 
 
 code = '''
-
+(!helloWorld)>++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<+
++.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-
+]<+./@
+#(helloWorld)    
 '''
 
 fbf = Interpreter(arr_size=256)
