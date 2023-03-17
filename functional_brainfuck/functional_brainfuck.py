@@ -141,7 +141,7 @@ code = '''
 #(helloWorld)    
 '''
 
-fbf = Interpreter(arr_size=256)
+fbf = Interpreter(arr_size=2*20)
 fbf.exec(code)
 # {<filename>} - include                                            V
 # (<label name>) - label                                            V

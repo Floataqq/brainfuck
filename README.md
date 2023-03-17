@@ -7,7 +7,6 @@
   - a standart brainfuck compiler with some settings
 - functional brainfuck(mwp interpreter is ready, std.fbf is not)
   - an extension of brainfuck that brings in function calls, labels and gotos, the stack and some qol features
-  - a standart library, std.fbf is currently in development. it will bring a lot of qol functions for math, memory manipulation, io, etc
 - objective brainfuck(just an idea)
   - a planned extension of functional brainfuck that will bring in OOP!
 # brainfuck interpreter
